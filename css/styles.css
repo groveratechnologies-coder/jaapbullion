@@ -720,6 +720,26 @@ a { text-decoration: none; color: inherit; }
 
 .footer-bottom a { color: var(--gold); }
 
+.footer-dev {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  letter-spacing: 0.05em;
+  border-top: 1px solid var(--border);
+  padding-top: 16px;
+}
+
+.footer-dev a {
+  color: var(--gold);
+  font-weight: 600;
+  transition: var(--transition);
+}
+.footer-dev a:hover {
+  color: var(--gold-light);
+  text-shadow: 0 0 12px rgba(201,168,76,0.4);
+}
+
 /* ══════════════════════════════════════
    FLOATING ACTION BUTTONS
 ══════════════════════════════════════ */
